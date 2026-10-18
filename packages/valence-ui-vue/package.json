@@ -1,0 +1,51 @@
+{
+  "name": "valence-ui-vue",
+  "version": "0.1.0",
+  "description": "Modern UI Component Library for Vue 3 by Altivex",
+  "type": "module",
+  "main": "./dist/valence-ui-vue.umd.cjs",
+  "module": "./dist/valence-ui-vue.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/valence-ui-vue.js",
+      "require": "./dist/valence-ui-vue.umd.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sass": "^1.83.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vite-plugin-dts": "^4.4.0",
+    "vue": "^3.5.13",
+    "vue-tsc": "^2.2.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "components",
+    "ui-library",
+    "valence-ui",
+    "design-system"
+  ],
+  "author": "Altivex",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altivex-Software/valence-ui.git"
+  }
+}

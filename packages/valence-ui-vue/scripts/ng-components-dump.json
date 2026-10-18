@@ -1,0 +1,2049 @@
+[
+  {
+    "file": "accordion\\accordion-item\\accordion-item.component.ts",
+    "inputs": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "color",
+        "type": "AccordionVariant"
+      },
+      {
+        "name": "headingLevel",
+        "type": "number"
+      },
+      {
+        "name": "itemId",
+        "type": "string"
+      },
+      {
+        "name": "boxShadow",
+        "type": "'sm' | 'md' | 'none'"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "accordion\\accordion.component.ts",
+    "inputs": [
+      {
+        "name": "multi",
+        "type": "boolean"
+      },
+      {
+        "name": "bordered",
+        "type": "boolean"
+      },
+      {
+        "name": "borderRadius",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "alert\\alert.component.ts",
+    "inputs": [
+      {
+        "name": "severity",
+        "type": "ValenceSeverity"
+      },
+      {
+        "name": "variant",
+        "type": "AlertVariant"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "icon",
+        "type": "ValIconName"
+      },
+      {
+        "name": "showIcon",
+        "type": "boolean"
+      },
+      {
+        "name": "closable",
+        "type": "boolean"
+      }
+    ],
+    "outputs": [
+      "onClose"
+    ]
+  },
+  {
+    "file": "auto-complete\\auto-complete.component.ts",
+    "inputs": [
+      {
+        "name": "suggestions",
+        "type": "any[]"
+      },
+      {
+        "name": "field",
+        "type": "string"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "placeholder",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "dropdown",
+        "type": "boolean"
+      },
+      {
+        "name": "emptyMessage",
+        "type": "string"
+      },
+      {
+        "name": "size",
+        "type": "'sm' | 'md' | 'lg'"
+      },
+      {
+        "name": "variant",
+        "type": "'default' | 'filled' | 'outlined' | 'fieldset' | 'oneLine'"
+      },
+      {
+        "name": "severity",
+        "type": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info'"
+      }
+    ],
+    "outputs": [
+      "completeMethod"
+    ]
+  },
+  {
+    "file": "badge\\badge.component.ts",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "string | number"
+      },
+      {
+        "name": "severity",
+        "type": "ValenceSeverity | ValenceColor"
+      },
+      {
+        "name": "variant",
+        "type": "BadgeVariant"
+      },
+      {
+        "name": "size",
+        "type": "ValenceSize"
+      },
+      {
+        "name": "pill",
+        "type": "boolean"
+      },
+      {
+        "name": "dot",
+        "type": "boolean"
+      },
+      {
+        "name": "overlay",
+        "type": "boolean"
+      },
+      {
+        "name": "ariaLabel",
+        "type": "string | null"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "block-ui\\block-ui.component.ts",
+    "inputs": [
+      {
+        "name": "blocked",
+        "type": "boolean"
+      },
+      {
+        "name": "message",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "breadcrumb\\breadcrumb.component.ts",
+    "inputs": [
+      {
+        "name": "items",
+        "type": "BreadcrumbItem[]"
+      },
+      {
+        "name": "separator",
+        "type": "string"
+      },
+      {
+        "name": "homeIcon",
+        "type": "string"
+      },
+      {
+        "name": "severity",
+        "type": "'primary' | 'secondary' | 'success' | 'warning' | 'danger' | 'info'"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "button\\button.component.ts",
+    "inputs": [
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "icon",
+        "type": "ValIconName"
+      },
+      {
+        "name": "iconPos",
+        "type": "'left' | 'right'"
+      },
+      {
+        "name": "variant",
+        "type": "ButtonVariant"
+      },
+      {
+        "name": "size",
+        "type": "ValenceSize"
+      },
+      {
+        "name": "boxShadow",
+        "type": "ValenceSize | 'none'"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "borderRadius",
+        "type": "string"
+      },
+      {
+        "name": "badge",
+        "type": "string | number"
+      },
+      {
+        "name": "badgeSeverity",
+        "type": "ValenceSeverity | ValenceColor"
+      },
+      {
+        "name": "badgeOverlay",
+        "type": "boolean"
+      },
+      {
+        "name": "ariaLabel",
+        "type": "string | null"
+      },
+      {
+        "name": "ariaDescribedBy",
+        "type": "string | null"
+      },
+      {
+        "name": "ariaExpanded",
+        "type": "boolean | undefined"
+      },
+      {
+        "name": "ariaPressed",
+        "type": "boolean | undefined"
+      },
+      {
+        "name": "ariaControls",
+        "type": "string | null"
+      },
+      {
+        "name": "type",
+        "type": "'button' | 'submit' | 'reset'"
+      }
+    ],
+    "outputs": [
+      "onClick"
+    ]
+  },
+  {
+    "file": "card\\card.component.ts",
+    "inputs": [
+      {
+        "name": "boxShadow",
+        "type": "ValenceSize | \"none\""
+      },
+      {
+        "name": "bordered",
+        "type": "boolean"
+      },
+      {
+        "name": "hoverable",
+        "type": "boolean"
+      },
+      {
+        "name": "liftOnHover",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "carousel\\carousel.component.ts",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "any[]"
+      },
+      {
+        "name": "effect",
+        "type": "CarouselEffect"
+      },
+      {
+        "name": "numVisible",
+        "type": "number"
+      },
+      {
+        "name": "numScroll",
+        "type": "number"
+      },
+      {
+        "name": "responsiveOptions",
+        "type": "CarouselResponsiveOption[]"
+      },
+      {
+        "name": "orientation",
+        "type": "'horizontal' | 'vertical'"
+      },
+      {
+        "name": "verticalViewPortHeight",
+        "type": "string"
+      },
+      {
+        "name": "itemWidth",
+        "type": "string"
+      },
+      {
+        "name": "circular",
+        "type": "boolean"
+      },
+      {
+        "name": "autoplayInterval",
+        "type": "number"
+      },
+      {
+        "name": "showNavigators",
+        "type": "boolean"
+      },
+      {
+        "name": "showIndicators",
+        "type": "boolean"
+      },
+      {
+        "name": "indicatorsContentPosition",
+        "type": "'bottom' | 'top'"
+      }
+    ],
+    "outputs": [
+      "onPage"
+    ]
+  },
+  {
+    "file": "checkbox\\checkbox.component.ts",
+    "inputs": [
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "color",
+        "type": "string"
+      },
+      {
+        "name": "severity",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "chips\\chips.component.ts",
+    "inputs": [
+      {
+        "name": "placeholder",
+        "type": "string"
+      },
+      {
+        "name": "max",
+        "type": "number | null"
+      },
+      {
+        "name": "allowDuplicate",
+        "type": "boolean"
+      },
+      {
+        "name": "separator",
+        "type": "string"
+      },
+      {
+        "name": "addOnBlur",
+        "type": "boolean"
+      }
+    ],
+    "outputs": [
+      "chipAdded",
+      "chipRemoved",
+      "chipClicked"
+    ]
+  },
+  {
+    "file": "confirm\\confirm-dialog.component.ts",
+    "inputs": [
+      {
+        "name": "key",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "confirm-popup\\confirm-popup.component.ts",
+    "inputs": [
+      {
+        "name": "message",
+        "type": "string"
+      },
+      {
+        "name": "icon",
+        "type": "ValIconName | string"
+      },
+      {
+        "name": "acceptLabel",
+        "type": "string"
+      },
+      {
+        "name": "rejectLabel",
+        "type": "string"
+      },
+      {
+        "name": "acceptVariant",
+        "type": "any"
+      }
+    ],
+    "outputs": [
+      "onAccept",
+      "onReject"
+    ]
+  },
+  {
+    "file": "context-menu\\context-menu.component.ts",
+    "inputs": [
+      {
+        "name": "model",
+        "type": "ContextMenuItem[]"
+      }
+    ],
+    "outputs": [
+      "onItemSelect"
+    ]
+  },
+  {
+    "file": "date-picker\\date-picker.component.ts",
+    "inputs": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "placeholder",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "required",
+        "type": "boolean"
+      },
+      {
+        "name": "hint",
+        "type": "string"
+      },
+      {
+        "name": "error",
+        "type": "string"
+      },
+      {
+        "name": "size",
+        "type": "'sm' | 'md' | 'lg'"
+      },
+      {
+        "name": "floatLabel",
+        "type": "boolean"
+      },
+      {
+        "name": "variant",
+        "type": "'default' | 'fieldset' | 'oneLine'"
+      },
+      {
+        "name": "format",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "dialog\\dialog.component.ts",
+    "inputs": [
+      {
+        "name": "header",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "string"
+      },
+      {
+        "name": "dismissableMask",
+        "type": "boolean"
+      },
+      {
+        "name": "closeOnEscape",
+        "type": "boolean"
+      },
+      {
+        "name": "hasFooter",
+        "type": "boolean"
+      }
+    ],
+    "outputs": [
+      "onHide"
+    ]
+  },
+  {
+    "file": "divider\\divider.component.ts",
+    "inputs": [
+      {
+        "name": "orientation",
+        "type": "DividerOrientation"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "labelPosition",
+        "type": "DividerLabelPosition"
+      },
+      {
+        "name": "labelFontWeight",
+        "type": "string | number"
+      },
+      {
+        "name": "borderStyle",
+        "type": "DividerBorderStyle"
+      },
+      {
+        "name": "resizable",
+        "type": "boolean"
+      },
+      {
+        "name": "thickness",
+        "type": "string"
+      },
+      {
+        "name": "color",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "dropdown\\dropdown.component.ts",
+    "inputs": [
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "placeholder",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "filter",
+        "type": "boolean"
+      },
+      {
+        "name": "filterPlaceholder",
+        "type": "string"
+      },
+      {
+        "name": "emptyMessage",
+        "type": "string"
+      },
+      {
+        "name": "size",
+        "type": "'sm' | 'md' | 'lg'"
+      },
+      {
+        "name": "variant",
+        "type": "'default' | 'filled' | 'outlined' | 'fieldset' | 'oneLine'"
+      },
+      {
+        "name": "severity",
+        "type": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info'"
+      },
+      {
+        "name": "multiple",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "dynamic-dialog\\dynamic-dialog-container.component.ts",
+    "inputs": [],
+    "outputs": []
+  },
+  {
+    "file": "fieldset\\fieldset.component.ts",
+    "inputs": [
+      {
+        "name": "legend",
+        "type": "string"
+      },
+      {
+        "name": "variant",
+        "type": "FieldsetVariant"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "legendPosition",
+        "type": "'start' | 'center' | 'end'"
+      },
+      {
+        "name": "borderStyle",
+        "type": "'solid' | 'dashed' | 'dotted' | 'double'"
+      },
+      {
+        "name": "toggleable",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "file-upload\\file-upload.component.ts",
+    "inputs": [
+      {
+        "name": "multiple",
+        "type": "boolean"
+      },
+      {
+        "name": "accept",
+        "type": "string"
+      },
+      {
+        "name": "maxFileSize",
+        "type": "number"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "chooseLabel",
+        "type": "string"
+      },
+      {
+        "name": "showFileList",
+        "type": "boolean"
+      },
+      {
+        "name": "customUpload",
+        "type": "boolean"
+      }
+    ],
+    "outputs": [
+      "onSelect",
+      "onRemove",
+      "onError"
+    ]
+  },
+  {
+    "file": "form-field\\form-field-error.component.ts",
+    "inputs": [
+      {
+        "name": "icon",
+        "type": "ValIconName"
+      },
+      {
+        "name": "errorName",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "form-field\\form-field-hint.component.ts",
+    "inputs": [
+      {
+        "name": "align",
+        "type": "'start' | 'end'"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "form-field\\form-field-label.component.ts",
+    "inputs": [
+      {
+        "name": "required",
+        "type": "boolean, unknown"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "form-field\\form-field.component.ts",
+    "inputs": [
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "hint",
+        "type": "string"
+      },
+      {
+        "name": "error",
+        "type": "string"
+      },
+      {
+        "name": "appearance",
+        "type": "FormFieldAppearance"
+      },
+      {
+        "name": "size",
+        "type": "FormFieldSize"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean, unknown"
+      },
+      {
+        "name": "required",
+        "type": "boolean, unknown"
+      },
+      {
+        "name": "invalid",
+        "type": "boolean, unknown"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "galleria\\galleria.component.ts",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "any[]"
+      },
+      {
+        "name": "numVisible",
+        "type": "number"
+      },
+      {
+        "name": "responsiveOptions",
+        "type": "GalleriaResponsiveOption[]"
+      },
+      {
+        "name": "showItemNavigators",
+        "type": "boolean"
+      },
+      {
+        "name": "showItemNavigatorsOnHover",
+        "type": "boolean"
+      },
+      {
+        "name": "showThumbnails",
+        "type": "boolean"
+      },
+      {
+        "name": "showThumbnailNavigators",
+        "type": "boolean"
+      },
+      {
+        "name": "thumbnailsPosition",
+        "type": "'bottom' | 'top' | 'left' | 'right'"
+      },
+      {
+        "name": "showIndicators",
+        "type": "boolean"
+      },
+      {
+        "name": "showIndicatorsOnItem",
+        "type": "boolean"
+      },
+      {
+        "name": "showCaption",
+        "type": "boolean"
+      },
+      {
+        "name": "circular",
+        "type": "boolean"
+      },
+      {
+        "name": "autoPlay",
+        "type": "boolean"
+      },
+      {
+        "name": "transitionInterval",
+        "type": "number"
+      },
+      {
+        "name": "containerStyle",
+        "type": "string"
+      },
+      {
+        "name": "containerClass",
+        "type": "string"
+      }
+    ],
+    "outputs": [
+      "activeIndexChange",
+      "visibleChange"
+    ]
+  },
+  {
+    "file": "icon\\icon.component.ts",
+    "inputs": [
+      {
+        "name": "name",
+        "type": "ValIconName"
+      },
+      {
+        "name": "size",
+        "type": "ValIconSize"
+      },
+      {
+        "name": "color",
+        "type": "ValIconColor"
+      },
+      {
+        "name": "strokeWidth",
+        "type": "number"
+      },
+      {
+        "name": "fill",
+        "type": "boolean"
+      },
+      {
+        "name": "variant",
+        "type": "ValIconVariant"
+      },
+      {
+        "name": "spin",
+        "type": "boolean"
+      },
+      {
+        "name": "rotate",
+        "type": "number"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "image\\image.component.ts",
+    "inputs": [
+      {
+        "name": "src",
+        "type": "string"
+      },
+      {
+        "name": "alt",
+        "type": "string"
+      },
+      {
+        "name": "width",
+        "type": "string"
+      },
+      {
+        "name": "height",
+        "type": "string"
+      },
+      {
+        "name": "preview",
+        "type": "boolean, unknown"
+      },
+      {
+        "name": "loading",
+        "type": "'lazy' | 'eager'"
+      },
+      {
+        "name": "indicatorIcon",
+        "type": "ValIconName | string"
+      },
+      {
+        "name": "imageClass",
+        "type": "string"
+      },
+      {
+        "name": "imageStyle",
+        "type": "string"
+      },
+      {
+        "name": "styleClass",
+        "type": "string"
+      }
+    ],
+    "outputs": [
+      "onShow",
+      "onHide",
+      "onImageError"
+    ]
+  },
+  {
+    "file": "input\\date-input.component.ts",
+    "inputs": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "required",
+        "type": "boolean"
+      },
+      {
+        "name": "min",
+        "type": "string"
+      },
+      {
+        "name": "max",
+        "type": "string"
+      },
+      {
+        "name": "hint",
+        "type": "string"
+      },
+      {
+        "name": "error",
+        "type": "string"
+      },
+      {
+        "name": "size",
+        "type": "'sm' | 'md' | 'lg'"
+      },
+      {
+        "name": "floatLabel",
+        "type": "boolean"
+      },
+      {
+        "name": "variant",
+        "type": "'default' | 'fieldset' | 'oneLine'"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "input\\input.component.ts",
+    "inputs": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "'text' | 'password' | 'email' | 'number' | 'tel' | 'url'"
+      },
+      {
+        "name": "placeholder",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "readonly",
+        "type": "boolean"
+      },
+      {
+        "name": "hint",
+        "type": "string"
+      },
+      {
+        "name": "error",
+        "type": "string"
+      },
+      {
+        "name": "required",
+        "type": "boolean"
+      },
+      {
+        "name": "size",
+        "type": "'sm' | 'md' | 'lg'"
+      },
+      {
+        "name": "variant",
+        "type": "'default' | 'fieldset' | 'oneLine'"
+      },
+      {
+        "name": "floatLabel",
+        "type": "boolean"
+      },
+      {
+        "name": "focusColor",
+        "type": "InputFocusColor"
+      },
+      {
+        "name": "icon",
+        "type": "ValIconName | string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "input\\knob.component.ts",
+    "inputs": [
+      {
+        "name": "min",
+        "type": "number"
+      },
+      {
+        "name": "max",
+        "type": "number"
+      },
+      {
+        "name": "step",
+        "type": "number"
+      },
+      {
+        "name": "unit",
+        "type": "string"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "size",
+        "type": "number"
+      },
+      {
+        "name": "variant",
+        "type": "'default' | 'flat' | 'outline'"
+      },
+      {
+        "name": "strokeWidth",
+        "type": "number"
+      },
+      {
+        "name": "valueColor",
+        "type": "string"
+      },
+      {
+        "name": "rangeColor",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "input\\otp.component.ts",
+    "inputs": [
+      {
+        "name": "length",
+        "type": "number"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "input\\password.component.ts",
+    "inputs": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "placeholder",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "required",
+        "type": "boolean"
+      },
+      {
+        "name": "hint",
+        "type": "string"
+      },
+      {
+        "name": "error",
+        "type": "string"
+      },
+      {
+        "name": "size",
+        "type": "'sm' | 'md' | 'lg'"
+      },
+      {
+        "name": "variant",
+        "type": "'default' | 'fieldset' | 'oneLine'"
+      },
+      {
+        "name": "floatLabel",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "input\\radio.component.ts",
+    "inputs": [
+      {
+        "name": "options",
+        "type": "RadioOption[]"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "vertical",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "input\\rating.component.ts",
+    "inputs": [
+      {
+        "name": "max",
+        "type": "number"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "input\\slider.component.ts",
+    "inputs": [
+      {
+        "name": "min",
+        "type": "number"
+      },
+      {
+        "name": "max",
+        "type": "number"
+      },
+      {
+        "name": "step",
+        "type": "number"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "showValues",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "input\\textarea.component.ts",
+    "inputs": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "placeholder",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "required",
+        "type": "boolean"
+      },
+      {
+        "name": "rows",
+        "type": "number"
+      },
+      {
+        "name": "hint",
+        "type": "string"
+      },
+      {
+        "name": "error",
+        "type": "string"
+      },
+      {
+        "name": "size",
+        "type": "'sm' | 'md' | 'lg'"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "input-mask\\input-mask.component.ts",
+    "inputs": [
+      {
+        "name": "mask",
+        "type": "string"
+      },
+      {
+        "name": "slotChar",
+        "type": "string"
+      },
+      {
+        "name": "autoClear",
+        "type": "boolean"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "placeholder",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "size",
+        "type": "'sm' | 'md' | 'lg'"
+      },
+      {
+        "name": "variant",
+        "type": "'default' | 'filled' | 'outlined' | 'fieldset' | 'oneLine'"
+      },
+      {
+        "name": "severity",
+        "type": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info'"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "input-switch\\input-switch.component.ts",
+    "inputs": [
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "color",
+        "type": "string"
+      },
+      {
+        "name": "severity",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "mega-menu\\mega-menu.component.ts",
+    "inputs": [
+      {
+        "name": "model",
+        "type": "MegaMenuItem[]"
+      },
+      {
+        "name": "orientation",
+        "type": "'horizontal' | 'vertical'"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "menubar\\menubar.component.ts",
+    "inputs": [
+      {
+        "name": "model",
+        "type": "MenuItem[]"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "multi-select\\multi-select.component.ts",
+    "inputs": [
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "placeholder",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "filter",
+        "type": "boolean"
+      },
+      {
+        "name": "filterPlaceholder",
+        "type": "string"
+      },
+      {
+        "name": "emptyMessage",
+        "type": "string"
+      },
+      {
+        "name": "size",
+        "type": "'sm' | 'md' | 'lg'"
+      },
+      {
+        "name": "variant",
+        "type": "'default' | 'filled' | 'outlined' | 'fieldset' | 'oneLine'"
+      },
+      {
+        "name": "severity",
+        "type": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info'"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "paginator\\paginator.component.ts",
+    "inputs": [
+      {
+        "name": "totalRecords",
+        "type": "number"
+      },
+      {
+        "name": "rows",
+        "type": "number"
+      },
+      {
+        "name": "page",
+        "type": "number"
+      },
+      {
+        "name": "first",
+        "type": "number"
+      },
+      {
+        "name": "rowsPerPageOptions",
+        "type": "number[]"
+      }
+    ],
+    "outputs": [
+      "onPageChange"
+    ]
+  },
+  {
+    "file": "panel\\panel.component.ts",
+    "inputs": [
+      {
+        "name": "header",
+        "type": "string"
+      },
+      {
+        "name": "variant",
+        "type": "PanelVariant"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "headerPosition",
+        "type": "PanelHeaderPosition"
+      },
+      {
+        "name": "toggleable",
+        "type": "boolean"
+      },
+      {
+        "name": "borderStyle",
+        "type": "'solid' | 'dashed' | 'dotted' | 'double'"
+      },
+      {
+        "name": "boxShadow",
+        "type": "'sm' | 'md' | 'lg' | 'none'"
+      },
+      {
+        "name": "scrollable",
+        "type": "boolean"
+      },
+      {
+        "name": "scrollDirection",
+        "type": "'x' | 'y' | 'both'"
+      },
+      {
+        "name": "scrollHeight",
+        "type": "string"
+      },
+      {
+        "name": "scrollWidth",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "panel-menu\\panel-menu.component.ts",
+    "inputs": [
+      {
+        "name": "items",
+        "type": "PanelMenuItem[]"
+      },
+      {
+        "name": "level",
+        "type": "number"
+      },
+      {
+        "name": "model",
+        "type": "PanelMenuItem[]"
+      },
+      {
+        "name": "multiple",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "popover\\popover.component.ts",
+    "inputs": [
+      {
+        "name": "offsetY",
+        "type": "number"
+      },
+      {
+        "name": "offsetX",
+        "type": "number"
+      }
+    ],
+    "outputs": [
+      "onShow",
+      "onHide"
+    ]
+  },
+  {
+    "file": "progress-bar\\progress-bar.component.ts",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "number"
+      },
+      {
+        "name": "mode",
+        "type": "ProgressBarMode"
+      },
+      {
+        "name": "severity",
+        "type": "ProgressBarSeverity"
+      },
+      {
+        "name": "showValue",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "progress-spinner\\progress-spinner.component.ts",
+    "inputs": [
+      {
+        "name": "size",
+        "type": "string"
+      },
+      {
+        "name": "strokeWidth",
+        "type": "string"
+      },
+      {
+        "name": "severity",
+        "type": "ProgressSpinnerSeverity"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "sample\\sample.component.ts",
+    "inputs": [],
+    "outputs": []
+  },
+  {
+    "file": "select-button\\select-button.component.ts",
+    "inputs": [
+      {
+        "name": "options",
+        "type": "SelectButtonOption[] | any[]"
+      },
+      {
+        "name": "optionLabel",
+        "type": "string"
+      },
+      {
+        "name": "optionValue",
+        "type": "string"
+      },
+      {
+        "name": "optionIcon",
+        "type": "string"
+      },
+      {
+        "name": "optionDisabled",
+        "type": "string"
+      },
+      {
+        "name": "multiple",
+        "type": "boolean"
+      },
+      {
+        "name": "unselectable",
+        "type": "boolean"
+      }
+    ],
+    "outputs": [
+      "selectionChange"
+    ]
+  },
+  {
+    "file": "select-button\\toggle-button.component.ts",
+    "inputs": [
+      {
+        "name": "onLabel",
+        "type": "string"
+      },
+      {
+        "name": "offLabel",
+        "type": "string"
+      },
+      {
+        "name": "onIcon",
+        "type": "string"
+      },
+      {
+        "name": "offIcon",
+        "type": "string"
+      }
+    ],
+    "outputs": [
+      "change"
+    ]
+  },
+  {
+    "file": "sidebar\\sidebar.component.ts",
+    "inputs": [
+      {
+        "name": "position",
+        "type": "'left' | 'right' | 'top' | 'bottom'"
+      },
+      {
+        "name": "header",
+        "type": "string"
+      },
+      {
+        "name": "showCloseIcon",
+        "type": "boolean"
+      },
+      {
+        "name": "dismissible",
+        "type": "boolean"
+      }
+    ],
+    "outputs": [
+      "onShow",
+      "onHide"
+    ]
+  },
+  {
+    "file": "skeleton\\skeleton.component.ts",
+    "inputs": [
+      {
+        "name": "shape",
+        "type": "SkeletonShape"
+      },
+      {
+        "name": "animation",
+        "type": "SkeletonAnimation"
+      },
+      {
+        "name": "width",
+        "type": "string"
+      },
+      {
+        "name": "height",
+        "type": "string"
+      },
+      {
+        "name": "borderRadius",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "speed-dial\\speed-dial.component.ts",
+    "inputs": [
+      {
+        "name": "model",
+        "type": "SpeedDialItem[]"
+      },
+      {
+        "name": "type",
+        "type": "SpeedDialType"
+      },
+      {
+        "name": "direction",
+        "type": "SpeedDialDirection"
+      },
+      {
+        "name": "radius",
+        "type": "number"
+      },
+      {
+        "name": "icon",
+        "type": "string"
+      },
+      {
+        "name": "activeIcon",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean, unknown"
+      },
+      {
+        "name": "mask",
+        "type": "boolean, unknown"
+      },
+      {
+        "name": "showLabels",
+        "type": "boolean, unknown"
+      },
+      {
+        "name": "rotateAnimation",
+        "type": "boolean, unknown"
+      },
+      {
+        "name": "hideOnClickOutside",
+        "type": "boolean, unknown"
+      },
+      {
+        "name": "tooltipPosition",
+        "type": "SpeedDialTooltipPosition"
+      },
+      {
+        "name": "styleClass",
+        "type": "string"
+      },
+      {
+        "name": "buttonClass",
+        "type": "string"
+      },
+      {
+        "name": "ariaLabel",
+        "type": "string"
+      }
+    ],
+    "outputs": [
+      "onVisibleChange",
+      "onClick"
+    ]
+  },
+  {
+    "file": "splitter\\splitter.component.ts",
+    "inputs": [
+      {
+        "name": "layout",
+        "type": "SplitterLayout"
+      },
+      {
+        "name": "initialSize",
+        "type": "number"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "stepper\\step.component.ts",
+    "inputs": [
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "optional",
+        "type": "boolean"
+      },
+      {
+        "name": "editable",
+        "type": "boolean"
+      },
+      {
+        "name": "completed",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "stepper\\stepper.component.ts",
+    "inputs": [
+      {
+        "name": "orientation",
+        "type": "'horizontal' | 'vertical'"
+      },
+      {
+        "name": "linear",
+        "type": "boolean"
+      },
+      {
+        "name": "headerNavigation",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "table\\table.component.ts",
+    "inputs": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "sortField",
+        "type": "field: string | null)"
+      },
+      {
+        "name": "sortOrder",
+        "type": "order: number)"
+      },
+      {
+        "name": "globalFilter",
+        "type": "filter: string)"
+      },
+      {
+        "name": "value",
+        "type": "any[]"
+      },
+      {
+        "name": "columns",
+        "type": "any[]"
+      },
+      {
+        "name": "dataKey",
+        "type": "string"
+      },
+      {
+        "name": "selectionMode",
+        "type": "SelectionMode | null"
+      },
+      {
+        "name": "selection",
+        "type": "any | any[] | null"
+      }
+    ],
+    "outputs": [
+      "selectionChange",
+      "rowSelect",
+      "rowUnselect"
+    ]
+  },
+  {
+    "file": "tabs\\tab.component.ts",
+    "inputs": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "icon",
+        "type": "ValIconName | string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "tabs\\tabs.component.ts",
+    "inputs": [
+      {
+        "name": "color",
+        "type": "ValenceSeverity | ValenceColor"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "tag\\tag.component.ts",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "string"
+      },
+      {
+        "name": "severity",
+        "type": "TagSeverity"
+      },
+      {
+        "name": "icon",
+        "type": "ValIconName | string"
+      },
+      {
+        "name": "rounded",
+        "type": "boolean"
+      },
+      {
+        "name": "removable",
+        "type": "boolean"
+      }
+    ],
+    "outputs": [
+      "onRemove"
+    ]
+  },
+  {
+    "file": "timeline\\timeline.component.ts",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "TimelineItem[]"
+      },
+      {
+        "name": "layout",
+        "type": "'vertical' | 'horizontal'"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "toast\\toast.component.ts",
+    "inputs": [],
+    "outputs": []
+  },
+  {
+    "file": "toolbar\\toolbar.component.ts",
+    "inputs": [
+      {
+        "name": "color",
+        "type": "'primary' | 'surface' | 'secondary' | 'transparent'"
+      },
+      {
+        "name": "sticky",
+        "type": "boolean"
+      },
+      {
+        "name": "shadow",
+        "type": "boolean"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "tree\\tree.component.ts",
+    "inputs": [
+      {
+        "name": "node",
+        "type": "TreeNode"
+      },
+      {
+        "name": "tree",
+        "type": "TreeComponent"
+      },
+      {
+        "name": "parent",
+        "type": "TreeNode | null"
+      },
+      {
+        "name": "value",
+        "type": "TreeNode[]"
+      },
+      {
+        "name": "selectionMode",
+        "type": "TreeSelectionMode"
+      },
+      {
+        "name": "filter",
+        "type": "boolean"
+      },
+      {
+        "name": "filterBy",
+        "type": "string"
+      },
+      {
+        "name": "filterPlaceholder",
+        "type": "string"
+      },
+      {
+        "name": "filterMode",
+        "type": "TreeFilterMode"
+      },
+      {
+        "name": "showLines",
+        "type": "boolean"
+      },
+      {
+        "name": "scrollHeight",
+        "type": "string | null"
+      },
+      {
+        "name": "emptyMessage",
+        "type": "string"
+      },
+      {
+        "name": "bordered",
+        "type": "boolean"
+      }
+    ],
+    "outputs": [
+      "nodeSelect",
+      "nodeUnselect",
+      "nodeExpand",
+      "nodeCollapse",
+      "selectionChange"
+    ]
+  },
+  {
+    "file": "tree-select\\tree-select.component.ts",
+    "inputs": [
+      {
+        "name": "options",
+        "type": "TreeNode[]"
+      },
+      {
+        "name": "placeholder",
+        "type": "string"
+      },
+      {
+        "name": "disabled",
+        "type": "boolean"
+      },
+      {
+        "name": "filter",
+        "type": "boolean"
+      },
+      {
+        "name": "filterPlaceholder",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "file": "tree-table\\tree-table.component.ts",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "TreeTableNode[]"
+      },
+      {
+        "name": "columns",
+        "type": "TreeTableColumn[]"
+      },
+      {
+        "name": "selectionMode",
+        "type": "'single' | 'multiple' | null"
+      },
+      {
+        "name": "striped",
+        "type": "boolean"
+      },
+      {
+        "name": "emptyMessage",
+        "type": "string"
+      }
+    ],
+    "outputs": [
+      "nodeSelect",
+      "nodeUnselect",
+      "nodeExpand",
+      "nodeCollapse"
+    ]
+  }
+]

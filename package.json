@@ -9,8 +9,9 @@
     "pack:lib": "npm run build:lib && npm pack ./dist/valence-ui",
     "publish:lib": "npm run build:lib && cd dist/valence-ui && npm publish --access public",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:demo": "node dist/demo/server/server.mjs"
+    "serve:ssr:demo": "node dist/demo/server/server.mjs",
+    "dev:vue": "npm --prefix packages/valence-ui-vue run dev",
+    "build:vue": "npm --prefix packages/valence-ui-vue run build"
   },
   "private": true,
   "dependencies": {

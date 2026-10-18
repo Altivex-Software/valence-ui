@@ -1,0 +1,1495 @@
+[
+  {
+    "ngFile": "accordion\\accordion-item\\accordion-item.component.ts",
+    "vueFile": "accordion/ValAccordionItem.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "title",
+      "color",
+      "headingLevel",
+      "itemId",
+      "boxShadow",
+      "disabled"
+    ],
+    "vueProps": [
+      "id",
+      "itemId",
+      "title",
+      "color",
+      "headingLevel",
+      "boxShadow",
+      "disabled"
+    ]
+  },
+  {
+    "ngFile": "accordion\\accordion.component.ts",
+    "vueFile": "accordion/ValAccordion.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "multi",
+      "bordered",
+      "borderRadius"
+    ],
+    "vueProps": [
+      "modelValue",
+      "activeId",
+      "multi",
+      "bordered",
+      "borderRadius"
+    ]
+  },
+  {
+    "ngFile": "alert\\alert.component.ts",
+    "vueFile": "alert/ValAlert.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "severity",
+      "variant",
+      "title",
+      "icon",
+      "showIcon",
+      "closable"
+    ],
+    "vueProps": [
+      "severity",
+      "variant",
+      "title",
+      "icon",
+      "showIcon",
+      "closable",
+      "visible"
+    ]
+  },
+  {
+    "ngFile": "auto-complete\\auto-complete.component.ts",
+    "vueFile": "auto-complete/ValAutoComplete.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "suggestions",
+      "field",
+      "label",
+      "placeholder",
+      "disabled",
+      "dropdown",
+      "emptyMessage",
+      "size",
+      "variant",
+      "severity"
+    ],
+    "vueProps": [
+      "modelValue",
+      "suggestions",
+      "field",
+      "optionLabel",
+      "label",
+      "dropdown",
+      "placeholder",
+      "disabled",
+      "emptyMessage",
+      "size",
+      "variant",
+      "severity"
+    ]
+  },
+  {
+    "ngFile": "badge\\badge.component.ts",
+    "vueFile": "badge/ValBadge.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "value",
+      "severity",
+      "variant",
+      "size",
+      "pill",
+      "dot",
+      "overlay",
+      "ariaLabel"
+    ],
+    "vueProps": [
+      "value",
+      "severity",
+      "variant",
+      "size",
+      "pill",
+      "dot",
+      "overlay",
+      "ariaLabel"
+    ]
+  },
+  {
+    "ngFile": "block-ui\\block-ui.component.ts",
+    "vueFile": "block-ui/ValBlockUI.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "blocked",
+      "message"
+    ],
+    "vueProps": [
+      "blocked",
+      "message",
+      "fullScreen"
+    ]
+  },
+  {
+    "ngFile": "breadcrumb\\breadcrumb.component.ts",
+    "vueFile": "breadcrumb/ValBreadcrumb.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "items",
+      "separator",
+      "homeIcon",
+      "severity"
+    ],
+    "vueProps": [
+      "items",
+      "separator",
+      "homeIcon",
+      "severity"
+    ]
+  },
+  {
+    "ngFile": "button\\button.component.ts",
+    "vueFile": "button/ValButton.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "label",
+      "icon",
+      "iconPos",
+      "variant",
+      "size",
+      "boxShadow",
+      "disabled",
+      "borderRadius",
+      "badge",
+      "badgeSeverity",
+      "badgeOverlay",
+      "ariaLabel",
+      "ariaDescribedBy",
+      "ariaExpanded",
+      "ariaPressed",
+      "ariaControls",
+      "type"
+    ],
+    "vueProps": [
+      "label",
+      "icon",
+      "iconPos",
+      "variant",
+      "size",
+      "boxShadow",
+      "disabled",
+      "type",
+      "borderRadius",
+      "badge",
+      "badgeSeverity",
+      "badgeOverlay",
+      "ariaLabel",
+      "ariaDescribedBy",
+      "ariaExpanded",
+      "ariaPressed",
+      "ariaControls"
+    ]
+  },
+  {
+    "ngFile": "card\\card.component.ts",
+    "vueFile": "card/ValCard.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "boxShadow",
+      "bordered",
+      "hoverable",
+      "liftOnHover"
+    ],
+    "vueProps": [
+      "bordered",
+      "hoverable",
+      "liftOnHover",
+      "boxShadow"
+    ]
+  },
+  {
+    "ngFile": "carousel\\carousel.component.ts",
+    "vueFile": "carousel/ValCarousel.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "value",
+      "effect",
+      "numVisible",
+      "numScroll",
+      "responsiveOptions",
+      "orientation",
+      "verticalViewPortHeight",
+      "itemWidth",
+      "circular",
+      "autoplayInterval",
+      "showNavigators",
+      "showIndicators",
+      "indicatorsContentPosition"
+    ],
+    "vueProps": [
+      "value",
+      "effect",
+      "numVisible",
+      "numScroll",
+      "responsiveOptions",
+      "orientation",
+      "verticalViewPortHeight",
+      "itemWidth",
+      "circular",
+      "autoplayInterval",
+      "showNavigators",
+      "showIndicators",
+      "indicatorsContentPosition"
+    ]
+  },
+  {
+    "ngFile": "checkbox\\checkbox.component.ts",
+    "vueFile": "checkbox/ValCheckbox.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "label",
+      "disabled",
+      "color",
+      "severity"
+    ],
+    "vueProps": [
+      "modelValue",
+      "value",
+      "label",
+      "disabled",
+      "color",
+      "severity",
+      "name"
+    ]
+  },
+  {
+    "ngFile": "chips\\chips.component.ts",
+    "vueFile": "chips/ValChips.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "placeholder",
+      "max",
+      "allowDuplicate",
+      "separator",
+      "addOnBlur"
+    ],
+    "vueProps": [
+      "modelValue",
+      "placeholder",
+      "disabled",
+      "max",
+      "allowDuplicate",
+      "separator",
+      "addOnBlur"
+    ]
+  },
+  {
+    "ngFile": "confirm\\confirm-dialog.component.ts",
+    "vueFile": "confirm/ValConfirmDialog.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "key",
+      "width"
+    ],
+    "vueProps": [
+      "key",
+      "keyName",
+      "width",
+      "visible",
+      "confirmation"
+    ]
+  },
+  {
+    "ngFile": "confirm-popup\\confirm-popup.component.ts",
+    "vueFile": "confirm-popup/ValConfirmPopup.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "message",
+      "icon",
+      "acceptLabel",
+      "rejectLabel",
+      "acceptVariant"
+    ],
+    "vueProps": [
+      "message",
+      "icon",
+      "acceptLabel",
+      "rejectLabel",
+      "acceptVariant"
+    ]
+  },
+  {
+    "ngFile": "context-menu\\context-menu.component.ts",
+    "vueFile": "context-menu/ValContextMenu.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "model"
+    ],
+    "vueProps": [
+      "model"
+    ]
+  },
+  {
+    "ngFile": "date-picker\\date-picker.component.ts",
+    "vueFile": "date-picker/ValDatePicker.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "id",
+      "label",
+      "placeholder",
+      "disabled",
+      "required",
+      "hint",
+      "error",
+      "size",
+      "floatLabel",
+      "variant",
+      "format"
+    ],
+    "vueProps": [
+      "modelValue",
+      "id",
+      "label",
+      "placeholder",
+      "disabled",
+      "required",
+      "hint",
+      "error",
+      "size",
+      "floatLabel",
+      "variant",
+      "format",
+      "clearable"
+    ]
+  },
+  {
+    "ngFile": "dialog\\dialog.component.ts",
+    "vueFile": "dialog/ValDialog.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "header",
+      "width",
+      "dismissableMask",
+      "closeOnEscape",
+      "hasFooter"
+    ],
+    "vueProps": [
+      "visible",
+      "header",
+      "modal",
+      "dismissableMask",
+      "closable",
+      "closeOnEscape",
+      "hasFooter",
+      "width"
+    ]
+  },
+  {
+    "ngFile": "divider\\divider.component.ts",
+    "vueFile": "divider/ValDivider.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "orientation",
+      "label",
+      "labelPosition",
+      "labelFontWeight",
+      "borderStyle",
+      "resizable",
+      "thickness",
+      "color"
+    ],
+    "vueProps": [
+      "orientation",
+      "label",
+      "labelPosition",
+      "labelFontWeight",
+      "borderStyle",
+      "resizable",
+      "thickness",
+      "color"
+    ]
+  },
+  {
+    "ngFile": "dropdown\\dropdown.component.ts",
+    "vueFile": "dropdown/ValDropdown.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "label",
+      "placeholder",
+      "disabled",
+      "filter",
+      "filterPlaceholder",
+      "emptyMessage",
+      "size",
+      "variant",
+      "severity",
+      "multiple"
+    ],
+    "vueProps": [
+      "modelValue",
+      "options",
+      "label",
+      "placeholder",
+      "disabled",
+      "filter",
+      "filterPlaceholder",
+      "emptyMessage",
+      "size",
+      "variant",
+      "severity",
+      "multiple"
+    ]
+  },
+  {
+    "ngFile": "dynamic-dialog\\dynamic-dialog-container.component.ts",
+    "vueFile": "dynamic-dialog/ValDynamicDialog.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [],
+    "vueProps": []
+  },
+  {
+    "ngFile": "fieldset\\fieldset.component.ts",
+    "vueFile": "fieldset/ValFieldset.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "legend",
+      "variant",
+      "disabled",
+      "legendPosition",
+      "borderStyle",
+      "toggleable"
+    ],
+    "vueProps": [
+      "legend",
+      "variant",
+      "toggleable",
+      "collapsed",
+      "disabled",
+      "legendPosition",
+      "borderStyle"
+    ]
+  },
+  {
+    "ngFile": "file-upload\\file-upload.component.ts",
+    "vueFile": "file-upload/ValFileUpload.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "multiple",
+      "accept",
+      "maxFileSize",
+      "disabled",
+      "chooseLabel",
+      "showFileList",
+      "customUpload"
+    ],
+    "vueProps": [
+      "multiple",
+      "accept",
+      "maxFileSize",
+      "disabled",
+      "chooseLabel",
+      "showFileList",
+      "customUpload"
+    ]
+  },
+  {
+    "ngFile": "form-field\\form-field.component.ts",
+    "vueFile": "form-field/ValFormField.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "label",
+      "hint",
+      "error",
+      "appearance",
+      "size",
+      "disabled",
+      "required",
+      "invalid"
+    ],
+    "vueProps": [
+      "label",
+      "hint",
+      "error",
+      "appearance",
+      "size",
+      "disabled",
+      "required",
+      "invalid"
+    ]
+  },
+  {
+    "ngFile": "galleria\\galleria.component.ts",
+    "vueFile": "galleria/ValGalleria.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "value",
+      "numVisible",
+      "responsiveOptions",
+      "showItemNavigators",
+      "showItemNavigatorsOnHover",
+      "showThumbnails",
+      "showThumbnailNavigators",
+      "thumbnailsPosition",
+      "showIndicators",
+      "showIndicatorsOnItem",
+      "showCaption",
+      "circular",
+      "autoPlay",
+      "transitionInterval",
+      "containerStyle",
+      "containerClass"
+    ],
+    "vueProps": [
+      "value",
+      "activeIndex",
+      "numVisible",
+      "responsiveOptions",
+      "showItemNavigators",
+      "showItemNavigatorsOnHover",
+      "showThumbnails",
+      "showThumbnailNavigators",
+      "thumbnailsPosition",
+      "showIndicators",
+      "showIndicatorsOnItem",
+      "showCaption",
+      "circular",
+      "autoPlay",
+      "transitionInterval",
+      "containerStyle",
+      "containerClass"
+    ]
+  },
+  {
+    "ngFile": "icon\\icon.component.ts",
+    "vueFile": "icon/ValIcon.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "name",
+      "size",
+      "color",
+      "strokeWidth",
+      "fill",
+      "variant",
+      "spin",
+      "rotate"
+    ],
+    "vueProps": [
+      "name",
+      "size",
+      "color",
+      "strokeWidth",
+      "fill",
+      "variant",
+      "spin",
+      "rotate"
+    ]
+  },
+  {
+    "ngFile": "image\\image.component.ts",
+    "vueFile": "image/ValImage.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "src",
+      "alt",
+      "width",
+      "height",
+      "preview",
+      "loading",
+      "indicatorIcon",
+      "imageClass",
+      "imageStyle",
+      "styleClass"
+    ],
+    "vueProps": [
+      "src",
+      "alt",
+      "width",
+      "height",
+      "preview",
+      "loading",
+      "indicatorIcon",
+      "imageClass",
+      "imageStyle",
+      "styleClass"
+    ]
+  },
+  {
+    "ngFile": "input\\date-input.component.ts",
+    "vueFile": "input/ValDateInput.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "id",
+      "label",
+      "disabled",
+      "required",
+      "min",
+      "max",
+      "hint",
+      "error",
+      "size",
+      "floatLabel",
+      "variant"
+    ],
+    "vueProps": [
+      "modelValue",
+      "id",
+      "label",
+      "disabled",
+      "required",
+      "min",
+      "max",
+      "hint",
+      "error",
+      "size",
+      "floatLabel",
+      "variant"
+    ]
+  },
+  {
+    "ngFile": "input\\input.component.ts",
+    "vueFile": "input/ValInput.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "id",
+      "label",
+      "type",
+      "placeholder",
+      "disabled",
+      "readonly",
+      "hint",
+      "error",
+      "required",
+      "size",
+      "variant",
+      "floatLabel",
+      "focusColor",
+      "icon"
+    ],
+    "vueProps": [
+      "modelValue",
+      "id",
+      "label",
+      "type",
+      "placeholder",
+      "disabled",
+      "readonly",
+      "hint",
+      "error",
+      "required",
+      "size",
+      "variant",
+      "floatLabel",
+      "focusColor",
+      "icon",
+      "iconPos",
+      "clearable",
+      "invalid"
+    ]
+  },
+  {
+    "ngFile": "input\\knob.component.ts",
+    "vueFile": "input/ValKnob.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "min",
+      "max",
+      "step",
+      "unit",
+      "label",
+      "disabled",
+      "size",
+      "variant",
+      "strokeWidth",
+      "valueColor",
+      "rangeColor"
+    ],
+    "vueProps": [
+      "modelValue",
+      "min",
+      "max",
+      "step",
+      "unit",
+      "label",
+      "disabled",
+      "size",
+      "variant",
+      "strokeWidth",
+      "valueColor",
+      "rangeColor"
+    ]
+  },
+  {
+    "ngFile": "input\\otp.component.ts",
+    "vueFile": "input/ValOtp.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "length",
+      "disabled"
+    ],
+    "vueProps": [
+      "modelValue",
+      "length",
+      "disabled",
+      "integerOnly"
+    ]
+  },
+  {
+    "ngFile": "input\\password.component.ts",
+    "vueFile": "input/ValPassword.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "id",
+      "label",
+      "placeholder",
+      "disabled",
+      "required",
+      "hint",
+      "error",
+      "size",
+      "variant",
+      "floatLabel"
+    ],
+    "vueProps": [
+      "modelValue",
+      "id",
+      "label",
+      "placeholder",
+      "disabled",
+      "required",
+      "hint",
+      "error",
+      "size",
+      "variant",
+      "floatLabel",
+      "toggleMask"
+    ]
+  },
+  {
+    "ngFile": "input\\radio.component.ts",
+    "vueFile": "radio/ValRadio.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "options",
+      "name",
+      "disabled",
+      "vertical"
+    ],
+    "vueProps": [
+      "modelValue",
+      "value",
+      "options",
+      "vertical",
+      "label",
+      "name",
+      "disabled"
+    ]
+  },
+  {
+    "ngFile": "input\\rating.component.ts",
+    "vueFile": "input/ValRating.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "max",
+      "disabled"
+    ],
+    "vueProps": [
+      "modelValue",
+      "max",
+      "disabled",
+      "readonly",
+      "color"
+    ]
+  },
+  {
+    "ngFile": "input\\slider.component.ts",
+    "vueFile": "input/ValSlider.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "min",
+      "max",
+      "step",
+      "disabled",
+      "showValues"
+    ],
+    "vueProps": [
+      "modelValue",
+      "min",
+      "max",
+      "step",
+      "disabled",
+      "showValues"
+    ]
+  },
+  {
+    "ngFile": "input\\textarea.component.ts",
+    "vueFile": "input/ValTextarea.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "id",
+      "label",
+      "placeholder",
+      "disabled",
+      "required",
+      "rows",
+      "hint",
+      "error",
+      "size"
+    ],
+    "vueProps": [
+      "modelValue",
+      "id",
+      "label",
+      "placeholder",
+      "disabled",
+      "required",
+      "rows",
+      "hint",
+      "error",
+      "size",
+      "autoResize"
+    ]
+  },
+  {
+    "ngFile": "input-mask\\input-mask.component.ts",
+    "vueFile": "input-mask/ValInputMask.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "mask",
+      "slotChar",
+      "autoClear",
+      "label",
+      "placeholder",
+      "disabled",
+      "size",
+      "variant",
+      "severity"
+    ],
+    "vueProps": [
+      "mask",
+      "modelValue",
+      "slotChar",
+      "autoClear",
+      "label",
+      "placeholder",
+      "disabled",
+      "size",
+      "variant",
+      "severity"
+    ]
+  },
+  {
+    "ngFile": "input-switch\\input-switch.component.ts",
+    "vueFile": "switch/ValSwitch.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "disabled",
+      "color",
+      "severity"
+    ],
+    "vueProps": [
+      "modelValue",
+      "label",
+      "disabled",
+      "color",
+      "severity",
+      "name"
+    ]
+  },
+  {
+    "ngFile": "mega-menu\\mega-menu.component.ts",
+    "vueFile": "mega-menu/ValMegaMenu.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "model",
+      "orientation"
+    ],
+    "vueProps": [
+      "model",
+      "orientation"
+    ]
+  },
+  {
+    "ngFile": "menubar\\menubar.component.ts",
+    "vueFile": "menubar/ValMenubar.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "model"
+    ],
+    "vueProps": [
+      "model"
+    ]
+  },
+  {
+    "ngFile": "multi-select\\multi-select.component.ts",
+    "vueFile": "multi-select/ValMultiSelect.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "label",
+      "placeholder",
+      "disabled",
+      "filter",
+      "filterPlaceholder",
+      "emptyMessage",
+      "size",
+      "variant",
+      "severity"
+    ],
+    "vueProps": [
+      "options",
+      "modelValue",
+      "label",
+      "placeholder",
+      "disabled",
+      "filter",
+      "filterPlaceholder",
+      "emptyMessage",
+      "size",
+      "variant",
+      "severity"
+    ]
+  },
+  {
+    "ngFile": "paginator\\paginator.component.ts",
+    "vueFile": "paginator/ValPaginator.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "totalRecords",
+      "rows",
+      "page",
+      "first",
+      "rowsPerPageOptions"
+    ],
+    "vueProps": [
+      "totalRecords",
+      "rows",
+      "page",
+      "first",
+      "rowsPerPageOptions"
+    ]
+  },
+  {
+    "ngFile": "panel\\panel.component.ts",
+    "vueFile": "panel/ValPanel.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "header",
+      "variant",
+      "disabled",
+      "headerPosition",
+      "toggleable",
+      "borderStyle",
+      "boxShadow",
+      "scrollable",
+      "scrollDirection",
+      "scrollHeight",
+      "scrollWidth"
+    ],
+    "vueProps": [
+      "header",
+      "variant",
+      "disabled",
+      "headerPosition",
+      "toggleable",
+      "collapsed",
+      "borderStyle",
+      "boxShadow",
+      "scrollable",
+      "scrollDirection",
+      "scrollHeight",
+      "scrollWidth"
+    ]
+  },
+  {
+    "ngFile": "panel-menu\\panel-menu.component.ts",
+    "vueFile": "panel-menu/ValPanelMenu.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "items",
+      "level",
+      "model",
+      "multiple"
+    ],
+    "vueProps": [
+      "model",
+      "items",
+      "level",
+      "multiple"
+    ]
+  },
+  {
+    "ngFile": "popover\\popover.component.ts",
+    "vueFile": "popover/ValPopover.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "offsetY",
+      "offsetX"
+    ],
+    "vueProps": [
+      "modelValue",
+      "offsetY",
+      "offsetX",
+      "width",
+      "closeOnEscape",
+      "closeOnClickOutside"
+    ]
+  },
+  {
+    "ngFile": "progress-bar\\progress-bar.component.ts",
+    "vueFile": "progress-bar/ValProgressBar.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "value",
+      "mode",
+      "severity",
+      "showValue"
+    ],
+    "vueProps": [
+      "value",
+      "mode",
+      "severity",
+      "showValue"
+    ]
+  },
+  {
+    "ngFile": "progress-spinner\\progress-spinner.component.ts",
+    "vueFile": "progress-spinner/ValProgressSpinner.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "size",
+      "strokeWidth",
+      "severity"
+    ],
+    "vueProps": [
+      "size",
+      "strokeWidth",
+      "severity"
+    ]
+  },
+  {
+    "ngFile": "select-button\\select-button.component.ts",
+    "vueFile": "select-button/ValSelectButton.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "options",
+      "optionLabel",
+      "optionValue",
+      "optionIcon",
+      "optionDisabled",
+      "multiple",
+      "unselectable"
+    ],
+    "vueProps": [
+      "modelValue",
+      "options",
+      "multiple",
+      "unselectable",
+      "disabled",
+      "optionLabel",
+      "optionValue",
+      "optionIcon",
+      "optionDisabled"
+    ]
+  },
+  {
+    "ngFile": "select-button\\toggle-button.component.ts",
+    "vueFile": "select-button/ValToggleButton.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "onLabel",
+      "offLabel",
+      "onIcon",
+      "offIcon"
+    ],
+    "vueProps": [
+      "modelValue",
+      "onLabel",
+      "offLabel",
+      "onIcon",
+      "offIcon",
+      "disabled"
+    ]
+  },
+  {
+    "ngFile": "sidebar\\sidebar.component.ts",
+    "vueFile": "sidebar/ValSidebar.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "position",
+      "header",
+      "showCloseIcon",
+      "dismissible"
+    ],
+    "vueProps": [
+      "modelValue",
+      "visible",
+      "position",
+      "header",
+      "showCloseIcon",
+      "dismissible"
+    ]
+  },
+  {
+    "ngFile": "skeleton\\skeleton.component.ts",
+    "vueFile": "skeleton/ValSkeleton.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "shape",
+      "animation",
+      "width",
+      "height",
+      "borderRadius"
+    ],
+    "vueProps": [
+      "shape",
+      "animation",
+      "width",
+      "height",
+      "borderRadius"
+    ]
+  },
+  {
+    "ngFile": "speed-dial\\speed-dial.component.ts",
+    "vueFile": "speed-dial/ValSpeedDial.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "model",
+      "type",
+      "direction",
+      "radius",
+      "icon",
+      "activeIcon",
+      "disabled",
+      "mask",
+      "showLabels",
+      "rotateAnimation",
+      "hideOnClickOutside",
+      "tooltipPosition",
+      "styleClass",
+      "buttonClass",
+      "ariaLabel"
+    ],
+    "vueProps": [
+      "model",
+      "type",
+      "direction",
+      "radius",
+      "icon",
+      "activeIcon",
+      "disabled",
+      "mask",
+      "showLabels",
+      "rotateAnimation",
+      "hideOnClickOutside",
+      "tooltipPosition",
+      "styleClass",
+      "buttonClass",
+      "ariaLabel"
+    ]
+  },
+  {
+    "ngFile": "splitter\\splitter.component.ts",
+    "vueFile": "splitter/ValSplitter.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "layout",
+      "initialSize"
+    ],
+    "vueProps": [
+      "layout",
+      "initialSize",
+      "minSize",
+      "maxSize"
+    ]
+  },
+  {
+    "ngFile": "stepper\\step.component.ts",
+    "vueFile": "stepper/ValStep.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "label",
+      "optional",
+      "editable",
+      "completed"
+    ],
+    "vueProps": [
+      "id",
+      "label",
+      "optional",
+      "editable",
+      "completed",
+      "disabled"
+    ]
+  },
+  {
+    "ngFile": "stepper\\stepper.component.ts",
+    "vueFile": "stepper/ValStepper.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "orientation",
+      "linear",
+      "headerNavigation"
+    ],
+    "vueProps": [
+      "modelValue",
+      "orientation",
+      "linear",
+      "headerNavigation"
+    ]
+  },
+  {
+    "ngFile": "table\\table.component.ts",
+    "vueFile": "table/ValTable.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "name",
+      "sortField",
+      "sortOrder",
+      "globalFilter",
+      "value",
+      "columns",
+      "dataKey",
+      "selectionMode",
+      "selection"
+    ],
+    "vueProps": [
+      "value",
+      "columns",
+      "dataKey",
+      "selectionMode",
+      "selection",
+      "globalFilter",
+      "sortField",
+      "sortOrder",
+      "striped",
+      "hoverable",
+      "bordered",
+      "emptyMessage"
+    ]
+  },
+  {
+    "ngFile": "tabs\\tab.component.ts",
+    "vueFile": "tabs/ValTab.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "id",
+      "label",
+      "icon",
+      "disabled"
+    ],
+    "vueProps": [
+      "id",
+      "label",
+      "icon",
+      "disabled"
+    ]
+  },
+  {
+    "ngFile": "tabs\\tabs.component.ts",
+    "vueFile": "tabs/ValTabs.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "color"
+    ],
+    "vueProps": [
+      "modelValue",
+      "activeIndex",
+      "color"
+    ]
+  },
+  {
+    "ngFile": "tag\\tag.component.ts",
+    "vueFile": "tag/ValTag.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "value",
+      "severity",
+      "icon",
+      "rounded",
+      "removable"
+    ],
+    "vueProps": [
+      "value",
+      "severity",
+      "icon",
+      "rounded",
+      "removable"
+    ]
+  },
+  {
+    "ngFile": "timeline\\timeline.component.ts",
+    "vueFile": "timeline/ValTimeline.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "value",
+      "layout"
+    ],
+    "vueProps": [
+      "value",
+      "layout"
+    ]
+  },
+  {
+    "ngFile": "toast\\toast.component.ts",
+    "vueFile": "toast/ValToast.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [],
+    "vueProps": [
+      "position"
+    ]
+  },
+  {
+    "ngFile": "toolbar\\toolbar.component.ts",
+    "vueFile": "toolbar/ValToolbar.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "color",
+      "sticky",
+      "shadow"
+    ],
+    "vueProps": [
+      "color",
+      "sticky",
+      "shadow"
+    ]
+  },
+  {
+    "ngFile": "tree\\tree.component.ts",
+    "vueFile": "tree/ValTree.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "node",
+      "tree",
+      "parent",
+      "value",
+      "selectionMode",
+      "filter",
+      "filterBy",
+      "filterPlaceholder",
+      "filterMode",
+      "showLines",
+      "scrollHeight",
+      "emptyMessage",
+      "bordered"
+    ],
+    "vueProps": [
+      "value",
+      "selectionMode",
+      "selectedKeys",
+      "filter",
+      "filterBy",
+      "filterMode",
+      "filterPlaceholder",
+      "lines",
+      "showLines",
+      "bordered",
+      "scrollable",
+      "scrollHeight",
+      "emptyMessage"
+    ]
+  },
+  {
+    "ngFile": "tree-select\\tree-select.component.ts",
+    "vueFile": "tree/ValTreeSelect.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "options",
+      "placeholder",
+      "disabled",
+      "filter",
+      "filterPlaceholder"
+    ],
+    "vueProps": [
+      "options",
+      "modelValue",
+      "placeholder",
+      "selectionMode",
+      "filter",
+      "filterPlaceholder",
+      "disabled"
+    ]
+  },
+  {
+    "ngFile": "tree-table\\tree-table.component.ts",
+    "vueFile": "tree/ValTreeTable.vue",
+    "status": "IDENTICAL",
+    "missingProps": [],
+    "ngInputs": [
+      "value",
+      "columns",
+      "selectionMode",
+      "striped",
+      "emptyMessage"
+    ],
+    "vueProps": [
+      "value",
+      "columns",
+      "selectionMode",
+      "bordered",
+      "striped",
+      "emptyMessage"
+    ]
+  }
+]
